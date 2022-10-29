@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">PaseanDog</string>
+    <string name="correoEjemplo">example@email.com</string>
+    <string name="contraseñaEjemplo">Your password</string>
 </resources>
