@@ -1,0 +1,6 @@
+.color1 { #f8a836 };
+.color2 { #f9be5b };
+.color3 { #fbd480 };
+.color4 { #fde9a5 };
+.color5 { #ffffca };
+https://paletadecolores.com.mx/colores/naranja/
