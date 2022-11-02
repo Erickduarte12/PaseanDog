@@ -9,6 +9,7 @@ import com.example.app_paseandog.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
+
         setTheme(R.style.Theme_Apppaseandog)
         Thread.sleep(3000)
         super.onCreate(savedInstanceState)
