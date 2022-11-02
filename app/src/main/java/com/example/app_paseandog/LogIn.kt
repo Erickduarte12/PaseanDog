@@ -1,6 +1,5 @@
 package com.example.app_paseandog;
 
-import android.app.Activity;
 import android.content.Intent
 import android.os.Bundle;
 import android.provider.ContactsContract.CommonDataKinds.Email
@@ -8,7 +7,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.app_paseandog.databinding.ActivityLoginBinding
 
-class login : AppCompatActivity() {
+class LogIn : AppCompatActivity() {
     private lateinit var binding:ActivityLoginBinding
     override fun onCreate(savedInstanceState:Bundle?) {
         super.onCreate(savedInstanceState)

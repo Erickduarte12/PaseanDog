@@ -17,12 +17,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(view)
 
         binding.btnLogin.setOnClickListener{
-            startActivity(Intent(this,login::class.java))
+            startActivity(Intent(this,LogIn::class.java))
             Toast.makeText(this,"Clic en el botón Ingresar",Toast.LENGTH_LONG).show()
         }
 
         binding.btnRegister.setOnClickListener {
-            startActivity(Intent(this,registro::class.java))
+            startActivity(Intent(this,Register::class.java))
         }
     }
 }

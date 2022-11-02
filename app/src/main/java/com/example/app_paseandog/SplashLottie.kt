@@ -5,11 +5,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import com.example.app_paseandog.databinding.ActivityLoginBinding
-import com.example.app_paseandog.databinding.ActivitySplashBinding
 import com.example.app_paseandog.databinding.ActivitySplashlottieBinding
 
-class splashlottie : AppCompatActivity() {
+class SplashLottie : AppCompatActivity() {
     private lateinit var binding: ActivitySplashlottieBinding
     private lateinit var handler: Handler
     override fun onCreate(savedInstanceState: Bundle?) {

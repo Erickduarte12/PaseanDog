@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.app_paseandog.databinding.ActivityRegistroBinding
 
-class registro : AppCompatActivity() {
+class Register : AppCompatActivity() {
     private lateinit var binding:ActivityRegistroBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
