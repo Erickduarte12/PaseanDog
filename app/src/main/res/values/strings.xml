@@ -15,4 +15,11 @@
     <string name="ingresar">Ingresar</string>
     <string name="paseandogtxt">PaseanDog</string>
     <string name="inicio">Inicio</string>
+    <string name="cargar_imagen" />
+    <string name="cargar_foto">Cargar imagen</string>
+    <string name="cargarimagen">Cargar Imagen</string>
+    <string name="foto">foto</string>
+    <string name="listado_de_paseadores">Listado de paseadores</string>
+    <string name="seleccionar">Seleccionar</string>
+    <string name="fulanito_p_rez">Fulanito Pérez</string>
 </resources>
