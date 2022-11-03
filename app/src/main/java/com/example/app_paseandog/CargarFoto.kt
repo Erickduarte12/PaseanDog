@@ -1,5 +1,6 @@
 package com.example.app_paseandog
 
+import android.graphics.Bitmap
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.result.contract.ActivityResultContracts
@@ -17,9 +18,12 @@ class CargarFoto : AppCompatActivity() {
         }
     }
 
-    val abrirCamara =
-        registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
+    val abrirCamara = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
+            result ->
             if (result.resultCode == RESULT_OK) {
+                val data=result.data!!
+                val bitmap=data.extras!!.get("data")as Bitmap
+                binding.imageView2.setImageBitmap(bitmap)
             }
         }
 }
